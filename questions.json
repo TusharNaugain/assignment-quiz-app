@@ -1,0 +1,85 @@
+{
+  "questions": [
+    {
+      "question": "What is a module in Node.js?",
+      "options": [
+        "A file containing JavaScript code that defines reusable functionality",
+        "A built-in function in Node.js for creating asynchronous tasks",
+        "A data structure used for storing key-value pairs",
+        "A type of loop used for iterating over arrays"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a core module in Node.js?",
+      "options": [
+        "fs (File System)",
+        "http (HTTP)",
+        "net (Network)",
+        "async (Asynchronous)"
+      ]
+    },
+    {
+      "question": "What is the purpose of the event loop in Node.js?",
+      "options": [
+        "To handle incoming HTTP requests",
+        "To execute JavaScript code synchronously",
+        "To handle asynchronous tasks and I/O operations",
+        "To create event listeners for DOM elements in the browser"
+      ]
+    },
+    {
+      "question": "In Node.js, what is a callback function?",
+      "options": [
+        "A function that is called before another function",
+        "A function passed as an argument to another function, to be executed later",
+        "A function that runs only once during the initialization of the application",
+        "A function used for defining the structure of a class"
+      ]
+    },
+    {
+      "question": "Which method is used to include external modules in Node.js?",
+      "options": ["require()", "import()", "include()", "module()"]
+    },
+    {
+      "question": "What does the fs module in Node.js primarily facilitate?",
+      "options": [
+        "File System operations",
+        "Network operations",
+        "HTTP operations",
+        "Asynchronous operations"
+      ]
+    },
+    {
+      "question": "What does the term \"non-blocking\" mean in the context of Node.js?",
+      "options": [
+        "Code execution continues without waiting for I/O operations to complete",
+        "Code execution stops until all I/O operations are complete",
+        "Code execution proceeds sequentially, waiting for each I/O operation to finish",
+        "Code execution proceeds only after all I/O operations have finished"
+      ]
+    },
+    {
+      "question": "Which event is emitted by the EventEmitter class in Node.js when an error occurs?",
+      "options": ["error", "fail", "exception", "warn"]
+    },
+    {
+      "question": "What is the primary use of the Buffer class in Node.js?",
+      "options": [
+        "For storing structured data",
+        "For performing mathematical calculations",
+        "For handling binary data",
+        "For creating user interfaces"
+      ]
+    },
+    {
+      "question": "What is the primary function of the HTTP module in Node.js?",
+      "options": [
+        "To provide functionality for making HTTP requests",
+        "To handle encryption and decryption of data",
+        "To manage user sessions and cookies",
+        "To create interactive user interfaces"
+      ]
+    }
+  ],
+  "answers": [0, 3, 2, 1, 0, 0, 0, 0, 2, 0]
+}
